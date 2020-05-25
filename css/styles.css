@@ -56,7 +56,7 @@ p {
   color: #FFFFFF;
 }
 
-.profile {
+.profile, .contact, .experiences, .skills {
   padding: 5% 15% 5% 15%;
   margin: 0;
 }
@@ -76,7 +76,6 @@ p {
 }
 
 .experiences {
-  padding: 5% 15% 5% 15%;
   background-color: #27496d;
 }
 
@@ -115,6 +114,24 @@ p {
   font-weight: bold;
 }
 
-.exp-data{
+.exp-data {
   padding: 1% 7.5% 1% 7.5%;
+}
+
+.skills {}
+
+.contact {
+  background-color: #dae1e7;
+}
+
+.credit {
+  text-align: center;
+  background-color: #dae1e7;
+}
+
+.social-icon {
+  display: block;
+  width: 7.5%;
+  height: auto;
+  margin-right: 1em;
 }
